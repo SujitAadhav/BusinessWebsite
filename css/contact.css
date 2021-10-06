@@ -1,0 +1,137 @@
+.contact-container{
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-container::before{
+    content: "";
+    position: absolute;
+    background: url(../img/contact-bg.jpg) center fixed;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+    top: 50px;
+    left: 0;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.contact-head{
+    font-size: 50px;
+}
+
+.contact-heading{
+    position: relative;
+    top: 20vh;
+    margin-left: 23px;
+    height: 85px;
+}
+
+.contact-container::after{
+    content: "";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5) url(../img/contact-page-bg.jpg) center;
+    background-size: cover;
+    height: 91vh;
+    width: 100%;
+    top: 416px;
+    left: 0;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.contact-box{
+    height: 80vh;
+    width: 90vw;
+    /* border: 2px solid black; */
+    display: flex;
+    position: absolute;
+    top: 65vh;
+    text-align: center;;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+}
+
+.contact-content-h2{
+    font-size: 45px;
+    color: white;
+}
+
+.contact-content-para1{
+    margin: 2px;
+    color: white;
+}
+
+.contact-content-para2{
+    margin: 2px;
+    color: white;
+}
+
+.contact-content-para3{
+    margin: 2px;
+    color: white;
+}
+
+.contact-input-in{
+    height: 12vh;
+    margin: 7px 0px 7px 0px;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 5px;
+    outline: none;
+    width: 35vw;
+}
+
+.contact-textarea{
+    margin-top: 7px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.contact-textarea-input{
+    height: 27vh;
+    margin: 7px 0px 7px 0px;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 5px;
+    outline: none;
+    width: 35vw;
+}
+
+.contact-content{
+    /* border: 2px solid black; */
+    height: 22vh;
+    width: 45vw;
+}
+
+.contact-form-body{
+    /* border: 2px solid black; */
+    height: 31vh;
+    width: 80vw;
+    position: relative;
+    top: 7vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-btn{
+    padding: 10px;
+    margin: 5px;
+    outline: none;
+    background-color: rgb(243, 23, 60);
+    color: white;
+    outline: none;
+    border-radius: 5px;
+}
+
+.contact-button{
+    position: relative;
+    top: 12vh;
+}

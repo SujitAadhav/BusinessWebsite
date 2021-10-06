@@ -1,0 +1,52 @@
+.associate-login-main{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.associate-login-main::after{
+    content: "";
+    background-image: url('../img/associate-bg.jpg');
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.associate-box{
+    border: 2px solid grey;
+    height: 65vh;
+    width: 25vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    background-color: rgba(255, 240, 240, 0.247);
+}
+
+.as-forgot-pass{
+    margin-bottom: 23px;
+}
+
+.as-form{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+}
+
+.as-input{
+    padding: 6px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.as-btn{
+    background-color: green;
+    color: white;
+}
+

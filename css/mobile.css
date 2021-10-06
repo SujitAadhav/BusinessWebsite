@@ -1,0 +1,70 @@
+@media only screen and (max-width: 1332px) {
+    .product-box img{
+        width: 153px;
+        height: 213px;
+        align-items: center;
+    }
+
+    .sec-second{
+        height: 110vh;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .navbar{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+    
+    .left-nav{
+        flex-direction: column-reverse;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left-tab{
+        flex-direction: column;
+    }
+
+    .right-nav{
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ethics-box{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .second-box-main{
+        top: 209vh;
+    }
+
+    .top-selling-products{
+        flex-direction: column;
+    }
+
+    .product-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box-main .box-e{
+        width: 200px;
+    }
+
+    .top-selling-products .product-box{
+        width: 200px;
+    }
+
+    .footer{
+        top: 312vh;
+    }
+}
+

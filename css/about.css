@@ -1,0 +1,52 @@
+.about-container{
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+}
+
+.about-container::before{
+    content: "";
+    position: absolute;
+    background: url(../img/about-bg-main.jpg) center fixed;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+    top: 50px;
+    left: 0;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.about-head{
+    font-size: 50px;
+}
+
+.about-heading{
+    position: relative;
+    top: 20vh;
+    margin-left: 23px;
+    height: 85px;
+}
+
+.about-container::after{
+    content: "";
+    position: absolute;
+    background: rgba(156, 112, 112, 0.9) url(../img/about-bg.jpg) center;
+    background-size: cover;
+    height: 91vh;
+    width: 100%;
+    top: 416px;
+    left: 0;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+.about-content-body{
+    border: 2px solid white;
+    height: 50vh;
+    width: 80vw;
+    position: absolute;
+    top: 70vh;
+    background-color: rgba(0, 0, 0, 0.438);
+    padding: 20px;
+}
